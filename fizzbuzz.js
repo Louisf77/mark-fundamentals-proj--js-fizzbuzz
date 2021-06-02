@@ -17,9 +17,9 @@ function isFizz(n) {
   return n % 3 === 0;
 }
 
-function isBuzz(n) {
-  return n % 5 === 0;
-}
+//function isBuzz(n) {
+  //return n % 5 === 0;
+//}
 
 function isFizzbuzz(n) {
   return isFizz(n) && isBuzz(n);
@@ -39,11 +39,11 @@ function toFizzbuzz(n) {
 
 /* Ignore the commented-out code below until Exercise 3 */
 // let isBuzz = (n) => {
-//   return n % 5 === 0;
+// return n % 5 === 0;
 // }
 
 /* Ignore the commented-out code below until Exercise 4 */
-// let isBuzz = (n) => n % 5 === 0;
+let isBuzz = (n) => n % 5 === 0;
 
 // Export the functions so that they can be used in ./fizzbuzz.test.js
 module.exports = {
